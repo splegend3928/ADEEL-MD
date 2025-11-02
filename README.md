@@ -25,10 +25,10 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ## ⭐ 𝐅𝐎𝐑𝐊 & 𝐒𝐓𝐀𝐑
 <p align="center">
-  <a href="https://github.com/ADEEL967MD/ADEEL-MD/fork">
+  <a href="https://github.com/Adeel-Xtech/ADEEL-MD/fork">
     <img src="https://img.shields.io/badge/Fork-Repo-ff00ff?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://github.com/ADEEL967MD/ADEEL-MD/fork">
+  <a href="https://github.com/Adeel-Xtech/ADEEL-MD/fork">
     <img src="https://img.shields.io/github/stars/ADEEL967MD/ADEEL-MD?style=for-the-badge&color=gold&logo=github" />
   </a>
 </p>
@@ -48,7 +48,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ## 🚀 𝐃𝐄𝐏𝐋𝐎𝐘𝐄 𝐍𝐎𝐖 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/ADEEL967MD/ADEEL-MD">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Adeel-Xtech/ADEEL-MD">
     <img src="https://img.shields.io/badge/Deploy-Heroku-7952B3?style=for-the-badge&logo=heroku&logoColor=white" />
   </a>
 </p>
