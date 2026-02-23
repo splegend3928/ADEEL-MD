@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="60" viewBox="0 0 600 60">
+  <defs>
+    <linearGradient id="royalGradient" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700">
+        <animate attributeName="stop-color" values="#FFD700;#FFA500;#FF8C00;#FF1493;#FF00FF;#00BFFF;#1E90FF;#32CD32;#FFD700" dur="15s" repeatCount="indefinite" calcMode="linear"/>
+      </stop>
+      <stop offset="50%" stop-color="#FF1493">
+        <animate attributeName="stop-color" values="#FF1493;#FF00FF;#00BFFF;#1E90FF;#32CD32;#FFD700;#FFA500;#FF8C00;#FF1493" dur="15s" repeatCount="indefinite" calcMode="linear"/>
+      </stop>
+      <stop offset="100%" stop-color="#00BFFF">
+        <animate attributeName="stop-color" values="#00BFFF;#1E90FF;#32CD32;#FFD700;#FFA500;#FF8C00;#FF1493;#FF00FF;#00BFFF" dur="15s" repeatCount="indefinite" calcMode="linear"/>
+      </stop>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="10s" repeatCount="indefinite" calcMode="linear"/>
+    </linearGradient>
+    
+    <linearGradient id="dotsGradient" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="33%" stop-color="#FF1493"/>
+      <stop offset="66%" stop-color="#00BFFF"/>
+      <stop offset="100%" stop-color="#32CD32"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1,0" to="1,0" dur="8s" repeatCount="indefinite" calcMode="linear"/>
+    </linearGradient>
+    
+    <clipPath id="innerBox">
+      <rect x="5" y="5" width="590" height="50" rx="12"/>
+    </clipPath>
+    
+    <clipPath id="clip1"><rect id="r1" x="40" y="12" width="0" height="36"/></clipPath>
+    <clipPath id="clip2"><rect id="r2" x="40" y="12" width="0" height="36"/></clipPath>
+    <clipPath id="clip3"><rect id="r3" x="40" y="12" width="0" height="36"/></clipPath>
+    <clipPath id="clip4"><rect id="r4" x="40" y="12" width="0" height="36"/></clipPath>
+    <clipPath id="clip5"><rect id="r5" x="40" y="12" width="0" height="36"/></clipPath>
+    
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur" opacity="0.4"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect x="5" y="5" width="590" height="50" rx="12" fill="#000000" stroke="url(#royalGradient)" stroke-width="3">
+    <animate attributeName="stroke-width" values="3;4;3" dur="3s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+  
+  <g clip-path="url(#innerBox)" opacity="0.6">
+    <circle cx="30" cy="18" r="3" fill="url(#dotsGradient)">
+      <animate attributeName="cx" values="30;590;30" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="220" cy="25" r="2.8" fill="url(#dotsGradient)">
+      <animate attributeName="cx" values="220;590;220" dur="11s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="400" cy="33" r="2.9" fill="url(#dotsGradient)">
+      <animate attributeName="cx" values="400;590;400" dur="14s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="100" cy="45" r="2.5" fill="url(#dotsGradient)">
+      <animate attributeName="cx" values="100;590;100" dur="16s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="500" cy="15" r="3.2" fill="url(#dotsGradient)">
+      <animate attributeName="cx" values="500;30;500" dur="13s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="40" r="2" fill="url(#dotsGradient)">
+      <animate attributeName="cx" values="300;580;300" dur="18s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <rect x="12" y="18" width="16" height="24" rx="6" fill="url(#royalGradient)" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite" />
+  </rect>
+  
+  <g font-family="Courier New, monospace" font-size="22" font-weight="bold" filter="url(#softGlow)">
+    <g clip-path="url(#clip1)">
+      <text x="40" y="40" fill="url(#royalGradient)">ADEEL MD PREMIUM</text>
+    </g>
+    <g clip-path="url(#clip2)">
+      <text x="40" y="40" fill="url(#royalGradient)">HEROKU READY SYSTEM</text>
+    </g>
+    <g clip-path="url(#clip3)">
+      <text x="40" y="40" fill="url(#royalGradient)">FAST AND SECURE BOT</text>
+    </g>
+    <g clip-path="url(#clip4)">
+      <text x="40" y="40" fill="url(#royalGradient)">ALWAYS ACTIVE 24/7</text>
+    </g>
+    <g clip-path="url(#clip5)">
+      <text x="40" y="40" fill="url(#royalGradient)">JOIN THE COMMUNITY</text>
+    </g>
+  </g>
+
+  <animate xlink:href="#r1" attributeName="width" values="0;520;0" dur="5s" begin="0s;25s" repeatCount="1" fill="freeze" />
+  <animate xlink:href="#r2" attributeName="width" values="0;520;0" dur="5s" begin="5s;30s" repeatCount="1" fill="freeze" />
+  <animate xlink:href="#r3" attributeName="width" values="0;520;0" dur="5s" begin="10s;35s" repeatCount="1" fill="freeze" />
+  <animate xlink:href="#r4" attributeName="width" values="0;520;0" dur="5s" begin="15s;40s" repeatCount="1" fill="freeze" />
+  <animate xlink:href="#r5" attributeName="width" values="0;520;0" dur="5s" begin="20s;45s" repeatCount="1" fill="freeze" />
+  
+  <rect x="40" y="18" width="2" height="28" fill="url(#royalGradient)">
+    <animate attributeName="x" values="40;560;40" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite" />
+  </rect>
+</svg>
