@@ -8,6 +8,10 @@
     "stop": "pm2 stop ADEEL-MD",
     "restart": "pm2 restart ADEEL-MD"
   },
+  "engines": {
+    "node": ">=20.x",
+    "npm": ">=10.x"
+  },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:gifted-baileys@2.0.6",
     "@adiwajshing/keyed-db": "^0.2.4",
